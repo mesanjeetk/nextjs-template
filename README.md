@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👋 Hello Developers  
 
-## Getting Started
+Welcome to the **Next.js 15 + Tailwind CSS v4** project configured to run inside **Termux (Android)**.  
+This repo demonstrates how to set up and run Next.js on Android devices. 🚀  
 
-First, run the development server:
+---
+
+## 📦 Tech Stack
+- ⚡ **Next.js 15** – Modern React framework  
+- 🎨 **Tailwind CSS v4** – Utility-first styling  
+- 📱 **Termux (Android)** – Linux environment on mobile  
+
+---
+
+## ⚠️ Important Notice  
+> This project includes a special dev dependency:  
+> 
+> ```bash
+> lightningcss.android-arm64.node
+> ```
+> 
+> ✅ Works only inside **Android Termux**  
+> ❌ Not compatible with Windows, Linux, or macOS  
+
+---
+
+## 🛠 Running on Other Platforms
+If you’re not on **Termux (Android)**, remove the dependency before running:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm uninstall lightningcss.android-arm64.node
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<details>
+<summary>📌 Hosting Instructions (Click to Expand)</summary>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Step 1: Remove Android-only dependency  
+```bash
+npm uninstall lightningcss.android-arm64.node
+```
 
-## Learn More
+### Step 2: Deploy Anywhere 🌍  
+Now you’re free to host your app on platforms like:
+- [Vercel](https://vercel.com/)  
+- [Netlify](https://www.netlify.com/)  
+- [Render](https://render.com/)  
+- Your own server 🚀  
 
-To learn more about Next.js, take a look at the following resources:
+</details>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧑‍💻 Contribution  
+Want to make this project better? PRs are welcome! 💡  
 
-## Deploy on Vercel
+1. Fork the repo  
+2. Create a new branch: `git checkout -b feature-name`  
+3. Commit changes: `git commit -m "Added feature XYZ"`  
+4. Push branch & open a PR  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌟 Show Your Support  
+If you found this useful:  
+⭐ **Star the repo** & spread the word!  
+
+---
+
+### 🔗 Quick Links  
+- 📖 [Next.js Docs](https://nextjs.org/docs)  
+- 🎨 [Tailwind Docs](https://tailwindcss.com/docs)  
+- 📱 [Termux Wiki](https://wiki.termux.com/wiki/Main_Page)  
